@@ -1,0 +1,137 @@
+*{
+    font-family:'Arial Narrow', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+@media screen and (max-width: 800px) {
+    .main_container{
+        width: 100%;
+    }
+    .child_container_1 {
+      display: none;
+    }
+    #child_2 {
+      padding: 0;
+    }
+  }
+body{
+background-image: url('background\ bg.png');
+ background-color: #E6EAEE;
+ background-size: 100% 100%;
+ background-attachment: fixed; 
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh  ;
+}
+.child_container{
+display: flex;
+width: 55%;
+background-color:#EFEFEF;
+/* border-radius: 0 16px 16px 0; */
+padding: 50px;
+box-shadow: 0 0 10px #10182824;
+}
+.child_container_1{
+    width: 50%;
+}
+.logo_container{
+    display: flex;
+    justify-content: center;
+}
+.logo_baseline{
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 10px 0 22px 0;
+
+}
+.logo_baseline_peragraph{
+    word-spacing: 0.2;
+    letter-spacing: 1.2;
+    font-size: large;
+}
+.child_container_1_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child_container_1_img img{
+    width: 66%;
+    margin: 31px 0 0 0;
+}
+.dot_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0 21px 0;
+}
+.img_line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img_bigger_line{
+   text-align: center;
+   padding: 11px 0 0 0;
+}
+.child_container_2{
+    padding: 0 70px;
+}
+.login_heading{
+    text-align: center;
+    margin-bottom: 9px  ;
+}
+.login_line{
+    text-align: center;
+    margin-bottom: 36px;
+}
+.info_div{
+display: flex;
+width: 92%;
+border: 1px solid gray ;
+padding: 5px;
+border-radius: 10px;
+padding: 10px;
+margin-bottom: 15px;
+}
+.input_div{
+    width: 100%;
+}
+    .info_div img{
+     width: 20px;
+    height: 20px;
+    margin: 10px 7px 0 0;
+}
+.input_div input{
+ font-size: 15px;
+ color: black;
+ margin-bottom: 6px;
+ border: none;
+ background-color:#EFEFEF;
+ width: 100%;
+}
+.info_div input::placeholder{
+    color: black;
+}
+.info_div p{
+    color: gray;
+    font-size: 13px;
+    margin: 3px 0;
+}
+.reset_link_div{
+    text-align: end;
+}
+.reset_link_div a{
+    text-decoration: none;
+    color: #FFA400;
+}
+.login_button button{
+width: 100%;
+height: 40px;
+border-radius: 10px;
+background-color: #262729;
+color:#FFA400;
+border: none;
+margin: 15px 0px;
+}
